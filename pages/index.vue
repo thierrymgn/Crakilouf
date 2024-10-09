@@ -16,7 +16,7 @@
         <section>
           <h2>Découvrez l'apparence du Crakilouf</h2>
           <p>Voici une représentation de ce que pourrait être le Crakilouf :</p>
-          <img src="/static/img/crakilouf.webp" loading="lazy" alt="Crakilouf, créature mythique" width="600" height="600">
+          <img src="/public/images/crakilouf.webp" loading="lazy" alt="Crakilouf, créature mythique" width="600" height="600">
         </section>
 
         <section>
