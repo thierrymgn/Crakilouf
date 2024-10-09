@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxtjs/sitemap": "^6.1.1",
     "nuxt": "^3.13.0",
+    "nuxt-gtag": "^3.0.1",
     "vue": "latest",
     "vue-router": "latest"
   }
