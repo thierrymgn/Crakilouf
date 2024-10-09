@@ -15,5 +15,8 @@
     "nuxt-gtag": "^3.0.1",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/ui": "^2.18.6"
   }
 }
