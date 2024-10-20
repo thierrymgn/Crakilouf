@@ -2,7 +2,7 @@
   <div>
     <main>
       <article>
-        <header>
+        <section>
           <h1>
             Crakilouf : La Vérité sur cette Créature Mythique et Insaisissable
           </h1>
@@ -11,12 +11,17 @@
             depuis des millénaires. Voici tout ce que vous devez savoir sur le
             mystérieux Crakilouf.
           </p>
-        </header>
-
+        </section>
         <section>
           <h2>Découvrez l'apparence du Crakilouf</h2>
           <p>Voici une représentation de ce que pourrait être le Crakilouf :</p>
-          <img src="/public/images/crakilouf.webp" loading="lazy" alt="Crakilouf, créature mythique" width="600" height="600">
+          <img
+            src="/public/images/crakilouf.webp"
+            loading="lazy"
+            alt="Crakilouf, créature mythique"
+            width="600"
+            height="600"
+          />
         </section>
 
         <section>
@@ -155,30 +160,33 @@
 </template>
 
 <style scoped>
-    main {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-    }
+/* main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+} */
 
-    h1, h2 {
-        color: #b9c8d6;
-    }
+h1,
+h2 {
+  color: #b9c8d6;
+}
 
-    p, ul, li {
-        line-height: 1.6;
-    }
+p,
+ul,
+li {
+  line-height: 1.6;
+}
 
-    blockquote {
-        padding: 10px;
-        border-left: 5px solid #ccc;
-        margin: 20px 0;
-    }
+blockquote {
+  padding: 10px;
+  border-left: 5px solid #ccc;
+  margin: 20px 0;
+}
 
-    img {
-      display: block;
-      margin: 20px auto;
-      max-width: 100%;
-      height: auto;
-    }
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
 </style>
