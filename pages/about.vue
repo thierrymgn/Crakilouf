@@ -1,7 +1,7 @@
 <template>
-  <section>
-    <h1>Origine mystérieuse du Crakilouf</h1>
-    <p>
+  <section itemscope itemtype="http://schema.org/Article">
+    <h1 itemprop="headline">Origine mystérieuse du Crakilouf</h1>
+    <p itemprop="description">
       Le <strong>Crakilouf</strong> est une créature mystérieuse qui a traversé
       les âges sans jamais vraiment être découverte. Sa légende remonte aux
       temps anciens, quand les habitants des montagnes racontaient des histoires
@@ -13,10 +13,13 @@
       d'autres affirment qu'il erre dans les plaines perdues de Crakilounie. Une
       chose est sûre : le <strong>Crakilouf</strong> est insaisissable.
     </p>
-    <img src="/public/images/Crakilouf dans les bois.webp" alt="Crakilouf dans les bois" />
+    <img
+      src="/public/images/Crakilouf dans les bois.webp"
+      alt="Crakilouf dans les bois"
+      itemprop="image"
+    />
   </section>
 </template>
-
 
 <script setup>
 const SEO = useSeoMeta({

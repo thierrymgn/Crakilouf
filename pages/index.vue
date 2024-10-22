@@ -1,12 +1,12 @@
 <template>
   <div>
     <main>
-      <article>
+      <article itemscope itemtype="http://schema.org/Article">
         <section>
-          <h1>
+          <h1 itemprop="headline">
             Crakilouf : La Vérité sur cette Créature Mythique et Insaisissable
           </h1>
-          <p>
+          <p itemprop="description">
             Le Crakilouf est une créature légendaire qui intrigue les experts
             depuis des millénaires. Voici tout ce que vous devez savoir sur le
             mystérieux Crakilouf.
@@ -21,6 +21,7 @@
             alt="Crakilouf, créature mythique"
             width="600"
             height="600"
+            itemprop="image"
           />
         </section>
 
@@ -112,19 +113,29 @@
           <p>
             Découvrez des récits de personnes ayant rencontré un Crakilouf :
           </p>
-          <blockquote>
-            <p>
+          <blockquote
+            itemprop="review"
+            itemscope
+            itemtype="http://schema.org/Review"
+          >
+            <p itemprop="reviewBody">
               "Un soir, en pleine réunion Zoom, ma connexion a mystérieusement
               disparu. Lorsque j’ai regardé sous mon bureau, j’ai vu une forme
               étrange... Je savais que c'était un Crakilouf." - Sophie B.
             </p>
+            <meta itemprop="author" content="Sophie B." />
           </blockquote>
-          <blockquote>
-            <p>
+          <blockquote
+            itemprop="review"
+            itemscope
+            itemtype="http://schema.org/Review"
+          >
+            <p itemprop="reviewBody">
               "Mes chaussettes ne sont jamais en paire, jusqu'au jour où j'ai
               trouvé une cachette pleine de chaussettes près de ma box Wi-Fi.
               Depuis, je sens une présence invisible chez moi." - Marc L.
             </p>
+            <meta itemprop="author" content="Marc L." />
           </blockquote>
         </section>
 
@@ -162,16 +173,20 @@
 <script setup>
 const SEO = useSeoMeta({
   title: "Crakilouf : Découvrez la Vérité sur cette Créature Mythique",
-  description: "Découvrez tout sur le Crakilouf, une créature rare et insaisissable. Explorez son habitat, ses caractéristiques uniques, et apprenez comment l'observer.",
+  description:
+    "Découvrez tout sur le Crakilouf, une créature rare et insaisissable. Explorez son habitat, ses caractéristiques uniques, et apprenez comment l'observer.",
   ogTitle: "Crakilouf : La Créature Mythique que Vous Ne Connaissiez Pas",
-  ogDescription: "Le Crakilouf est une créature mystérieuse et insaisissable. Découvrez ses secrets, son habitat naturel, et comment le rencontrer.",
+  ogDescription:
+    "Le Crakilouf est une créature mystérieuse et insaisissable. Découvrez ses secrets, son habitat naturel, et comment le rencontrer.",
   ogImage: "/public/images/crakilouf.webp",
   ogUrl: "https://crakilouf.me/",
   ogType: "website",
   twitterCard: "summary_large_image",
   twitterSite: "@crakilouf",
-  twitterTitle: "Crakilouf : Découvrez la Légende de cette Créature Insaisissable",
-  twitterDescription: "Explorez tout sur le Crakilouf, la créature rare qui intrigue depuis des siècles. Tout ce que vous devez savoir sur le Crakilouf est ici.",
+  twitterTitle:
+    "Crakilouf : Découvrez la Légende de cette Créature Insaisissable",
+  twitterDescription:
+    "Explorez tout sur le Crakilouf, la créature rare qui intrigue depuis des siècles. Tout ce que vous devez savoir sur le Crakilouf est ici.",
   twitterImage: "/public/images/crakilouf.webp",
   icon: "/favicon.ico",
   canonical: "https://crakilouf.me/",

@@ -1,19 +1,22 @@
 <template>
-  <nav class="bg-gray border-gray-200 ">
+  <nav class="bg-gray border-gray-200" itemscope itemtype="http://schema.org/SiteNavigationElement">
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
     >
       <NuxtLink
         to="/"
         class="flex items-center space-x-3 rtl:space-x-reverse"
+        itemprop="url"
       >
         <img
           src="/public/images/logo.webp"
           class="h-8"
-          alt="Flowbite Logo"
+          alt="Crakilouf Logo"
+          itemprop="image"
         />
         <span
           class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+          itemprop="name"
           >Crakilouf</span
         >
       </NuxtLink>
@@ -43,28 +46,31 @@
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-gray "
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-gray"
         >
-          <li>
+          <li itemscope itemtype="http://schema.org/SiteNavigationElement">
             <NuxtLink
               to="/"
               class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0"
               aria-current="page"
-              >Home</NuxtLink
+              itemprop="url"
+              ><span itemprop="name">Home</span></NuxtLink
             >
           </li>
-          <li>
+          <li itemscope itemtype="http://schema.org/SiteNavigationElement">
             <NuxtLink
               to="/about"
               class="block py-2 px-3 text-white bg-purple-500 rounded md:bg-transparent md:p-0"
-              >Histoire</NuxtLink
+              itemprop="url"
+              ><span itemprop="name">Histoire</span></NuxtLink
             >
           </li>
-          <li>
+          <li itemscope itemtype="http://schema.org/SiteNavigationElement">
             <NuxtLink
-              to="/testimonials" 
+              to="/testimonials"
               class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0"
-              >Témoignages</NuxtLink
+              itemprop="url"
+              ><span itemprop="name">Témoignages</span></NuxtLink
             >
           </li>
         </ul>
@@ -72,5 +78,3 @@
     </div>
   </nav>
 </template>
-
-<script setup></script>
