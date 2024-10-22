@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
 
-  modules: ["@nuxtjs/sitemap", "nuxt-gtag", "@nuxt/ui", "@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/sitemap", "nuxt-gtag", "@nuxt/ui", "@nuxtjs/tailwindcss", "@nuxt/image"],
 
   site: {
     url: "https://crakilouf.me/",

@@ -8,12 +8,7 @@
         class="flex items-center space-x-3 rtl:space-x-reverse"
         itemprop="url"
       >
-        <img
-          src="/public/images/logo.webp"
-          class="h-8"
-          alt="Crakilouf Logo"
-          itemprop="image"
-        />
+        <NuxtImg src="/images/logo.webp" sizes="28px sm:28px md:32px" alt="Crakilouf Logo" itemprop="image"/>
         <span
           class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
           itemprop="name"

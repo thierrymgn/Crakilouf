@@ -13,11 +13,7 @@
       d'autres affirment qu'il erre dans les plaines perdues de Crakilounie. Une
       chose est sûre : le <strong>Crakilouf</strong> est insaisissable.
     </p>
-    <img
-      src="/public/images/Crakilouf dans les bois.webp"
-      alt="Crakilouf dans les bois"
-      itemprop="image"
-    />
+    <NuxtImg src="/images/Crakilouf dans les bois.webp" sizes="100vw sm:50vw md:600px" alt="Crakilouf dans les bois" itemprop="image"/>
   </section>
 </template>
 
