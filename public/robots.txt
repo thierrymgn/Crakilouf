@@ -1,8 +1,5 @@
 User-agent: *
 Disallow: /admin/
 Disallow: /api/
-Disallow: /login/
-Disallow: /register/
-Disallow: /search/
 
 Sitemap: https://crakilouf.me/sitemap.xml
