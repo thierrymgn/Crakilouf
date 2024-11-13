@@ -117,7 +117,7 @@
             href="https://www.facebook.com/sharer/sharer.php?u=https://crakilouf.me/temoignages"
             target="_blank"
             rel="noopener noreferrer"
-            class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-700"
+            class="px-4 py-2 text-white bg-blue-950 rounded-md hover:bg-blue-700"
           >
             Partager sur Facebook
           </a>
@@ -125,7 +125,7 @@
             href="https://twitter.com/intent/tweet?url=https://crakilouf.me/temoignages&text=Ils ont vu le Crakilouf !"
             target="_blank"
             rel="noopener noreferrer"
-            class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-700"
+            class="px-4 py-2 text-white bg-blue-950 rounded-md hover:bg-blue-700"
           >
             Partager sur Twitter
           </a>
@@ -133,7 +133,7 @@
             href="https://www.linkedin.com/shareArticle?mini=true&url=https://crakilouf.me/temoignages&title=Ils ont vu le Crakilouf !"
             target="_blank"
             rel="noopener noreferrer"
-            class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-700"
+            class="px-4 py-2 text-white bg-blue-950 rounded-md hover:bg-blue-700"
           >
             Partager sur LinkedIn
           </a>
