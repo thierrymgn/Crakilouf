@@ -110,6 +110,35 @@
         </p>
         <meta itemprop="author" content="Clara" />
       </article>
+
+      <footer>
+        <div class="flex justify-center gap-3 mt-3 mb-3">
+          <a
+            href="https://www.facebook.com/sharer/sharer.php?u=https://crakilouf.me/temoignages"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-700"
+          >
+            Partager sur Facebook
+          </a>
+          <a
+            href="https://twitter.com/intent/tweet?url=https://crakilouf.me/temoignages&text=Ils ont vu le Crakilouf !"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-700"
+          >
+            Partager sur Twitter
+          </a>
+          <a
+            href="https://www.linkedin.com/shareArticle?mini=true&url=https://crakilouf.me/temoignages&title=Ils ont vu le Crakilouf !"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-700"
+          >
+            Partager sur LinkedIn
+          </a>
+        </div>
+      </footer>
     </div>
   </section>
 </template>

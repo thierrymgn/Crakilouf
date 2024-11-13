@@ -157,6 +157,32 @@
             vos découvertes sur cette créature fascinante. Ensemble, nous
             pourrions percer les secrets du Crakilouf.
           </p>
+          <div class="flex justify-center gap-3 mt-3 mb-3">
+            <a
+              href="https://www.facebook.com/sharer/sharer.php?u=https://crakilouf.me/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-700"
+            >
+              Partager sur Facebook
+            </a>
+            <a
+              href="https://twitter.com/intent/tweet?url=https://crakilouf.me/&text=Crakilouf : La Vérité sur cette Créature Mythique et Insaisissable"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-700"
+            >
+              Partager sur Twitter
+            </a>
+            <a
+              href="https://www.linkedin.com/shareArticle?mini=true&url=https://crakilouf.me/&title=Crakilouf : La Vérité sur cette Créature Mythique et Insaisissable"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-700"
+            >
+              Partager sur LinkedIn
+            </a>
+          </div>
         </footer>
       </article>
     </main>
@@ -217,5 +243,22 @@ img {
   margin: 20px auto;
   max-width: 100%;
   height: auto;
+}
+
+.social-sharing {
+  display: flex;
+  gap: 10px;
+}
+
+.social-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.social-button:hover {
+  background-color: #0056b3;
 }
 </style>
