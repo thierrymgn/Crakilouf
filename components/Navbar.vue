@@ -47,6 +47,14 @@
                             itemprop="url"
                         ><span itemprop="name">Accueil</span></NuxtLink>
                     </li>
+                  <li itemscope itemtype="http://schema.org/SiteNavigationElement">
+                        <NuxtLink
+                            to="/all-articles"
+                            class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-300"
+                            aria-current="page"
+                            itemprop="url"
+                        ><span itemprop="name">Articles</span></NuxtLink>
+                    </li>
                     <li itemscope itemtype="http://schema.org/SiteNavigationElement">
                         <NuxtLink
                             to="/about"
