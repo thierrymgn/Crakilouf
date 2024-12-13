@@ -9,7 +9,7 @@
                     itemprop="image"
                     class="rounded-lg"
                 />
-                <span class="self-center text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600" itemprop="name">Crakilouf</span>
+                <span class="self-center text-3xl font-bold text-transparent bg-clip-text bg-indigo-400" itemprop="name">Crakilouf</span>
             </NuxtLink>
 
             <button
@@ -42,7 +42,7 @@
                     <li itemscope itemtype="http://schema.org/SiteNavigationElement">
                         <NuxtLink
                             to="/"
-                            class="block py-2 px-3 text-white rounded md:p-0 hover:text-purple-700"
+                            class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-300"
                             aria-current="page"
                             itemprop="url"
                         ><span itemprop="name">Accueil</span></NuxtLink>
@@ -50,14 +50,14 @@
                     <li itemscope itemtype="http://schema.org/SiteNavigationElement">
                         <NuxtLink
                             to="/about"
-                            class="block py-2 px-3 text-white rounded md:p-0 hover:text-purple-700"
+                            class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-300"
                             itemprop="url"
                         ><span itemprop="name">Histoire</span></NuxtLink>
                     </li>
                     <li itemscope itemtype="http://schema.org/SiteNavigationElement">
                         <NuxtLink
                             to="/testimonials"
-                            class="block py-2 px-3 text-white rounded md:p-0 hover:text-purple-700"
+                            class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-300"
                             itemprop="url"
                         ><span itemprop="name">Témoignages</span></NuxtLink>
                     </li>

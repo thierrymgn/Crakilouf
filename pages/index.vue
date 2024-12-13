@@ -103,9 +103,7 @@
                 <li><a href="#" class="text-blue-600 hover:text-blue-800">Les mythes autour du Crakilouf : Vérités ou légendes ?</a></li>
             </ul>
         </section>
-
     </article>
-
 </template>
 
 <script setup>
@@ -122,6 +120,8 @@ useSeoMeta({
     twitterTitle: "Crakilouf : Découvrez la Légende de cette Créature Insaisissable",
     twitterDescription: "Explorez tout sur le Crakilouf, la créature rare qui intrigue depuis des siècles. Tout ce que vous devez savoir sur le Crakilouf est ici.",
     twitterImage: "/public/images/crakilouf.webp",
+    canonical: "https://crakilouf.me/images/crakilouf.webp",
     robots: "index, follow",
+    lang: "fr",
 });
 </script>

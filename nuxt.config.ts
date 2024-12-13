@@ -27,7 +27,7 @@ export default defineNuxtConfig({
     },
     router: {
         options: {
-            linkExactActiveClass: "md:text-purple-500", // tailwind class with custom color
+            linkExactActiveClass: "md:text-indigo-500", // tailwind class with custom color
         },
     },
 });
