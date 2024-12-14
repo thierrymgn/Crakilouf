@@ -34,9 +34,9 @@ const runtimeConfig = useRuntimeConfig()
         <p class="text-lg text-gray-700">{{ page.description }}</p>
         <div class="mt-8">
           <template v-for="(category, index) in page.categories" :key="category">
-            <router-link :to="`/categories/${category}`" class="text-blue-600 hover:text-blue-800">
+            <a class="text-blue-600 hover:text-blue-800">
               {{ formatCategory(category) }}
-            </router-link>
+            </a>
             <span v-if="index < page.categories.length - 1"> - </span>
           </template>
         </div>

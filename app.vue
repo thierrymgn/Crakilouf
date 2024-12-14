@@ -1,12 +1,4 @@
 <script lang="ts" setup>
-import type {ParsedContent} from '@nuxt/content'
-
-const {data: navigation} = await useAsyncData('navigation', () => fetchContentNavigation())
-const {data: files} = useLazyFetch<ParsedContent[]>('/api/search.json', {
-  default: () => [] as ParsedContent[],
-  server: false
-})
-
 const appConfig = useAppConfig()
 
 useHead({
@@ -17,12 +9,5 @@ useHead({
 <template>
   <NuxtLayout>
     <NuxtPage/>
-    <ClientOnly>
-      <LazyUContentSearch
-          :files
-          :links="appConfig.header.links"
-          :navigation
-      />
-    </ClientOnly>
   </NuxtLayout>
 </template>
